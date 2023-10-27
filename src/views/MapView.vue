@@ -152,7 +152,7 @@ export default {
   },
   async created() {
     this.loading = true;
-    const response = await fetch("/lu_KalongII.json");
+    const response = await fetch("/Landuse_Kalong2.json");
     const data = await response.json();
     this.geojson = data;
     this.loading = false;
